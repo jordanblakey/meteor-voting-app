@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Meteor } from 'meteor/meteor';
 import { render } from 'react-dom';
 
-import App from '../imports/client/App'
+import App from '../imports/client/App';
+import '../imports/ui/Body.js';
 
 Meteor.startup(() => {
     render(<App />, document.getElementById('render-target'));
